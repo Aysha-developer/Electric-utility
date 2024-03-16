@@ -1,0 +1,492 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: emoji;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(124, 88, 88, 0.47);
+    padding: 1rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0, 5rem 1rem rgba(0, 0, 0, 1);
+}
+
+header .logo {
+    font-size: 2rem;
+    color: chocolate;
+    font-weight: bolder;
+    font-family: "Times New Roman", Times, serif;
+}
+
+header .logo span {
+    color: orange;
+}
+
+header .navbar a {
+    font-size: 1.5rem;
+    padding: 0 1.5rem;
+    color: black;
+    text-decoration: dotted;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .navbar a:hover {
+    color: orange;
+}
+
+header .icons a {
+    font-size: 2.5rem;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+header .icons a:hover {
+    color: var(--yellow);
+}
+
+
+#hero {
+    /* background: #f4f4f4; */
+    text-align: center;
+    padding: 100px 0;
+    background: url("https://www.ke.com.pk/assets/uploads/2020/01/Surjani-Grid.jpg") no-repeat center center/cover;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    margin-bottom: 20px;
+}
+
+
+
+.hero {
+    background: url("https://www.ke.com.pk/assets/uploads/2020/01/Surjani-Grid.jpg") no-repeat center center/cover;
+    color: #ebe6e6;
+    text-align: center;
+    padding: 100px 0;
+    min-height: 150vh;
+}
+
+h1 {
+    color: #313030;
+    background: darkcyan;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.hero .container h2 {
+    font-size: 3rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero .container span {
+    font-size: 2rem;
+    color: gray;
+    padding: 1rem 0;
+    line-height: 1.5;
+}
+
+.hero .container .box {
+    box-sizing: border-box;
+    border-radius: 3rem;
+    padding: 1rem 1rem;
+    position: relative;
+    border: 0.3rem solid rgb(14, 13, 13);
+    background: rgba(124, 88, 88, 0.47);
+}
+
+.hero .container .box h1 {
+    font-size: 3rem;
+    color: white;
+    padding: 1rem 0;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ #hero h2 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 5rem;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+
+
+.box {
+    display: block;
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 1);
+    border-radius: 2rem;
+    padding: 3rem 2rem;
+    position: relative;
+    box-sizing: border-box;
+    background: rgba(124, 88, 88, 0.47);
+}
+
+.home .box-container .box h1 {
+    color: #575555;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 150vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box-container h1 {
+    align-items: center;
+    color: #0e0d0d;
+}
+
+.box-container :hover {
+    background-color: #1191d0;
+}
+
+.quadrant {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.quadrant h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+.quadrant p {
+    color: white;
+    background-color: black;
+}
+
+.quadrant1 {
+    background-image: url("https://i.dawn.com/primary/2020/11/5fb696896444b.jpg");
+    background-size: cover;
+}
+
+.quadrant2 {
+    background-image: url("https://www.ke.com.pk/assets/uploads/2016/06/billing-complaint.jpg");
+    background-size: cover;
+}
+
+.quadrant3 {
+    background-image: url("https://helios-i.mashable.com/imagery/articles/046ywo9O5Sro7iMNZzAwO3e/hero-image.fill.size_1248x702.v1668532646.jpg");
+    background-size: cover;
+}
+
+.quadrant4 {
+    background-image: url("https://t4.ftcdn.net/jpg/06/02/39/37/360_F_602393753_OaRY0LpuCGbDgVKP57TOuHhGwKytd2aj.jpg");
+    background-size: cover;
+}
+
+.container h2 {
+    font-size: 2rem;
+}
+
+.container p {
+    font-size: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    background: chocolate;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: underline;
+    border-radius: 5px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+section {
+    padding: 30px 0;
+}
+
+#about {
+    text-align: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#about .container .image {
+    height: 10vh;
+}
+
+.about .container p {
+    float: left;
+}
+
+.about .container p span {
+    color: blue;
+}
+
+.about h1 {
+    font-size: 5rem;
+}
+
+span {
+    color: blue;
+}
+
+.e-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 50px auto;
+    padding-top: 2rem;
+    flex-wrap: wrap;
+    /* gap: 1.5rem; */
+}
+
+.box1 {
+    display: block;
+    padding: 1rem 1rem;
+    box-shadow: 0 0.5rem 1.5rem orange;
+    position: relative;
+    box-sizing: border-box;
+    background: transparent;
+    display: block;
+    align-items: center;
+}
+
+.e-container .box1 h3 {
+    padding: 0.5rem;
+    background: white;
+    color: #0e0d0d;
+}
+
+.e-container .box1:hover {
+    color: rgb(245, 242, 236);
+    background: #e67e22;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.row form {
+    flex: 30rem;
+    /* padding: 1rem; */
+    /* box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 1); */
+    /* border: .3rem solid black; */
+    background: rgba(124, 88, 88, 0.47);
+    border-radius: 0.5rem;
+}
+
+.row form p {
+    color: black;
+    background: white;
+}
+
+.row form .box {
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    text-transform: none;
+    /* border: .5rem solid rgb(75, 73, 73); */
+    border-radius: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    background: white;
+}
+
+.row form .box:hover {
+    border-color: orange;
+}
+
+.row .form textarea {
+    height: 15rem;
+    resize: none;
+}
+
+#about,
+#contact us {
+    background: white;
+    text-align: center;
+}
+
+.F-container {
+    min-height: 80vh;
+    padding-top: 2rem;
+    
+}
+
+.contact us {
+    margin-bottom: 40px;
+}
+
+.F-container .service h3 {
+    color: rgb(45, 45, 151);
+}
+
+.contact us h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.credit-container {
+    border-top: 1rem solid rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.footer .link-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    background: rgba(124, 88, 88, 0.47);
+}
+
+.footer .link-container .box2 {
+    flex: 1 1 25rem;
+}
+
+.footer .link-container .box2 a {
+    display: block;
+    color: black;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+.footer .link-container .box2 a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.footer .credit-container {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    color: darkgreen;
+    border-top: 1rem solid rgba(0, 0, 0, 1);
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 2rem;
+    }
+    .home {
+        background-position: left;
+    }
+
+    .about{
+        background-position: left;
+    }
+    
+}
+
+@media (max-width:600px) {
+    header .navbar{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: left;
+        background: rgba(124, 88, 88, 0.47);
+        gap: 0;
+        color: black;
+        overflow: hidden;
+    }
+    header .navbar a{
+        padding: 20px;
+        padding-top: 0;
+        color:black
+        font-size: 1rem;
+    }
+   
+    h1 {
+    color: #313030;
+    background: darkcyan;
+    align-items: center;
+    font-size: 3rem;
+    text-align: center;
+}
+
+    #navbar{
+        transition: all 0.5s;
+    }
+        .home .content h3{
+        font-size: 3rem;
+    }
+    
+    .home .content span{
+        font-size: 1.5rem;
+    }
+
+
+}
+
+@media (max-width:450px){
+
+
+    html{
+        font-size: 50%;
+    }
+    
+    header{
+        padding: 2rem;
+    }
+    
+    }
+
+    .heading{
+        font-size: 3rem;
+    }
+
+    
