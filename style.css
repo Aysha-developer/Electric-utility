@@ -443,18 +443,18 @@ span {
 
     
     header .navbar{
-        position: fixed;
+        position: absolute;
         top: 60px;
         left: 0;
         flex-direction: column;
         text-align: left;
-        background: rgba(124, 88, 88, 0.47);
+        background: white;
         gap: 0;
         color: black;
         overflow: hidden;
     }
     header .navbar a{
-        padding: 20px;
+        padding: 30px;
         padding-top: 0;
         color:black
         font-size: 1rem;
