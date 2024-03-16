@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Karachi Electric</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+    
+     <header>
+        
+            <!-- <div class="logo">
+                 <img src="data:image/png;base64,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" alt="K-Electric Logo"> -->
+           
+                 <a href="#" class="logo">K-ELECTRIC<span>.</span></a>
+
+                 <nav class="navbar">
+                      <a href="index.html">Home</a>
+                      <a href="index.html">Bills&Payments</a>
+                      <a href="index2.html">ECC</a>
+                      <a href="contact.html">Contact us</a>
+                  </nav>
+        
+       
+    </header>
+
+     <section id="Centre">
+        <div class="F-container">
+            <h1>CUSTOMER CARE CENTRE</h1>
+            <img src="https://voiptimecloud.com/blog_img/operator-answering-client-phone-call-customer-care-service-helping-people-call-center-support-male-receptionist-giving-telemarketing-assistance-phone-helpline-office%20(1).jpg">
+            <div class="service">
+                <h3>REGISTERED OFFICE</h3>
+                <p>KE House, 39-B, Sunset Boulevard, Phase-II, Defence Housing Authority, Karachi.</p>
+            </div>
+                <br>
+            <div class="service">
+                <h3>CONTACT NUMBERS</h3>
+                <p>92-21-3263 7133
+                    <br>
+                    92-21-3870 9132
+                    <br>
+                    For customer complaints/queries, call us at <span>118 or 99000.</span></p>
+            </div>
+            <br>
+            <div class="service">
+                <h3>EMAIL ADDRESS</h3>
+                <p>For billing and new connection complaints/queries, you can email us at <span>customer.care@ke.com.pk</span>
+                    <br><br>
+
+                    Any employee, customer, vendor or others can report theft, fraud, irregularity or other witnessed malpractice with appropriate details and mentioning their correct particulars <span>at speakup@ke.com.pk</span>
+                    <br><br>
+                    For queries related to Net Metering, you can email us <span>at net.metering@ke.com.pk</span></p>
+            </div>
+            <br>
+            <div class="service">
+                <h3>INVESTORS CONTACTS</h3>
+                <p>For any queries related to investment, please contact <span>at rizwan.pesnani@ke.com.pk</span></p>
+            </div>
+            <br>
+            <div class="service">
+                <h3>CAREERS</h3>
+                <p>You can send your CV <span>at hr.recruitments@ke.com.pk</span></p>
+            </div>
+</div>
+</section>
+
+<br><br>
+
+  <section class="footer">
+    <div class="link-container">
+        <div class="box2">
+            <a href="tech.html">Technical Quiries</a>
+            
+        </div>
+
+        <!-- <div class="box2">
+           
+            <a href="centre.html">Customer Care Center</a>
+         
+        </div> -->
+
+        <div class="box2">
+           
+            <a href="#">8119(For Mobile service)</a>
+           
+        </div>
+
+        <div class="box2">
+           
+            <a href="#">Understand Your KE BILL</a>
+            
+        </div>
+        </div>
+
+         <div class="credit-container">
+            <p>&copy; 2024 <span>K-ELECTRIC</span></p>
+        </div>
+    </section>
+    
+     </body>
+    </html>
+
