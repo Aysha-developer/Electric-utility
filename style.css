@@ -479,9 +479,6 @@ span {
         font-size: 1.5rem;
     }
 
-    #about .container .image{
-        height: 250px;
-    }
 
 
 }
@@ -497,10 +494,12 @@ span {
         padding: 2rem;
     }
     
+    #about .container .image{
+        max-height: 50vh;
     }
 
     .heading{
         font-size: 3rem;
     }
-
+}
     
